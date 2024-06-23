@@ -1,3 +1,4 @@
+import math
 a = float(input("Введите коэффициент a: "))
 b = float(input("Введите коэффициент b: "))
 c = float(input("Введите коэффициент c: "))
