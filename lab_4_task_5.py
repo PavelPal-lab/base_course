@@ -3,15 +3,15 @@ import numpy as np
 def S_figure(figure):
 
   if figure == "круг":
-    r = float(input("радиус круга: "))
+    r = int(input("радиус круга: "))
     S = np.pi * r**2
   elif figure == "прямоугольник":
-    side1 = float(input("первая сторона: "))
-    side2 = float(input("вторая сторона: "))
+    side1 = int(input("первая сторона: "))
+    side2 = int(input("вторая сторона: "))
     S = side1 * side2
   elif figure == "треугольник":
-    base = float(input("длина основания: "))
-    h = float(input("высота треугольника: "))
+    base = int(input("длина основания: "))
+    h = int(input("высота треугольника: "))
     S = (base * h) / 2
   else:
     S = None
