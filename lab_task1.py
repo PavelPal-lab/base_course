@@ -1,10 +1,9 @@
-import math
 import numpy as np
 import matplotlib.pyplot as plt
 
 N_0 = 100
 k = 0.1
-t_10 = math.log(10) / k
+t_10 = np.log(10) / k
 
 def бактерии(t):
     return N_0 * np.exp(k * t)
